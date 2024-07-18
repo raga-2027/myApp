@@ -1,9 +1,9 @@
 const express = require('express');
 // const faker = require('faker');
 
-const ProdutsService = require('./../service/productService');
+const ProdutsService = require('../service/productService');
 const validatorHander = require('../middlewares/validatorHander');
-const { createproductSchema, updateProductSchema, getProductSchema } = require('./../schemas/schemasProduct');
+const { createproductSchema, updateProductSchema, getProductSchema } = require('../schemas/schemasProduct');
 
 const router = express.Router();
 
